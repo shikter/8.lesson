@@ -33,6 +33,7 @@
 			$table_html .="<th>Message</th>";
 			$table_html .="<th>Sender</th>";
 			$table_html .="<th>Created</th>";
+			$table_html .="<th>Edit</th>";
 		
 		$table_html .="</tr>"; //end row
 	
@@ -50,6 +51,8 @@
 			$table_html .="<td>".$message."</td>";
 			$table_html .="<td>".$sender."</td>";
 			$table_html .="<td>".$created."</td>";
+			
+			$table_html .="<td><a href='edit.php?edit=".$id."'>Edit</a></td>";
 			
 		$table_html .="</tr>"; //end row
 	}
@@ -121,6 +124,7 @@ echo "<br>";
 
 	
 ?>
+
 <!DOCTYPE html>
 <html>
 <head>
