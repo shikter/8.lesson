@@ -57,6 +57,7 @@
 		$table_html .="</tr>"; //end row
 	}
 	
+	
 	$table_html .="</table>";
 	//echo $table_html;
 	
@@ -160,4 +161,3 @@ echo "<br>";
 </body>
 
 </html>
-
